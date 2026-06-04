@@ -1,0 +1,9 @@
+#!/bin/bash
+
+WORKING_DIR=$(pwd)
+echo "working directory is $WORKING_DIR"
+
+stow --dir=$WORKING_DIR --target=$HOME hypr
+stow --dir=$WORKING_DIR --target=$HOME waybar
+
+echo "stowing complete"
