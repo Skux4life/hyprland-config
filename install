@@ -5,5 +5,6 @@ echo "working directory is $WORKING_DIR"
 
 stow --dir=$WORKING_DIR --target=$HOME hypr
 stow --dir=$WORKING_DIR --target=$HOME waybar
+stow --dir=$WORKING_DIR --target=$HOME alacritty
 
 echo "stowing complete"
