@@ -1,5 +1,8 @@
 # Skux4life Hyprland Config
 
+## GNU stow
+This is used to create symlinks
+
 ## Setup
 - Clone the repo
-- symlink the config directory to wherever you cloned the repo eg: `ln -s ~/repos/hyprland-config ~/.config/hypr`
+- run `stow hypr`, `stow waybar`
