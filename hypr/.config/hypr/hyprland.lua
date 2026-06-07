@@ -38,7 +38,7 @@ hl.env("__GLX_VENDOR_LIBRARY_NAME", "nvidia")
 
 hl.config({
   general = {
-    layout = "master",
+    layout = "dwindle",
     gaps_in = 5,
     gaps_out = 20,
     border_size = 2,
@@ -81,9 +81,9 @@ hl.config({
     follow_mouse = 1,
     sensitivity = 0.0,
   },
-  master = {
-    new_status = "master"
-  },
+  -- master = {
+  --  new_status = "master"
+  -- },
   misc = {
     force_default_wallpaper = -1,
     disable_hyprland_logo = false,
