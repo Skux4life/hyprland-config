@@ -25,9 +25,9 @@ hl.monitor({
 })
 
 -- workspaces
-hl.workspace_rule({ workspace = "1", monitor = "HDMI-A-1"})
-hl.workspace_rule({ workspace = "2", monitor = "HDMI-A-1"})
-for i = 3, 10 do
+hl.workspace_rule({ workspace = "6", monitor = "HDMI-A-1"})
+hl.workspace_rule({ workspace = "7", monitor = "HDMI-A-1"})
+for i = 1, 5 do
   hl.workspace_rule({ workspace = tostring(i), monitor = "DP-2"})
 end
 
