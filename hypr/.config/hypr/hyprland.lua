@@ -18,7 +18,7 @@ hl.monitor({
 
 hl.monitor({
   output = "HDMI-A-1",
-  mode = "3840x1440",
+  mode = "3440x1440",
   position = "0x0",
   scale = 1,
   transform = 3
@@ -37,6 +37,9 @@ hl.env("LIBVA_DRIVER", "nvidia")
 hl.env("__GLX_VENDOR_LIBRARY_NAME", "nvidia")
 
 hl.config({
+  cursor = {
+    no_hardware_cursors = true
+  },
   general = {
     layout = "dwindle",
     gaps_in = 5,
